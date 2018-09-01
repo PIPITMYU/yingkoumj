@@ -1,0 +1,1244 @@
+2018-05-09 21:13:49,725-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-05-09 21:14:26,977-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-05-09 21:14:27,964-[YZT] [INFO] main com.yzt.logic.util.redis.MyRedis - redis 初始化完成
+2018-05-09 21:14:28,422-[YZT] [INFO] main com.yzt.logic.util.BackFileUtil - 回放文件清理完成！
+2018-05-09 21:14:29,584-[YZT] [WARN] pool-3-thread-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x80deafff]'
+2018-05-09 21:14:29,614-[YZT] [INFO] pool-3-thread-1 io.netty.channel.ChannelInboundHandlerAdapter - webSocket server startup with port 8231
+2018-05-09 21:14:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：0
+2018-05-09 21:14:29,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:14:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：0
+2018-05-09 21:14:39,939-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:14:42,537-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为0af29dcb,当前连接数为：1
+2018-05-09 21:14:42,578-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为55229fe4,当前连接数为：2
+2018-05-09 21:14:42,663-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:42,663-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:42,678-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:42,678-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:42,720-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：42
+2018-05-09 21:14:42,726-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：49
+2018-05-09 21:14:42,734-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-21, interfaceId=100100, cId=33}
+2018-05-09 21:14:42,744-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:14:42,749-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {openId=wsw-21, interfaceId=100100, cId=33}
+2018-05-09 21:14:42,753-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:14:42,797-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.dao.UserMapper - sql name ==>>com.yzt.logic.mj.dao.UserMapper.getNotice
+2018-05-09 21:14:42,852-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.dao.UserMapper - sql name ==>>com.yzt.logic.mj.dao.UserMapper.getNotice
+2018-05-09 21:14:43,572-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为41f73efc,当前连接数为：3
+2018-05-09 21:14:43,585-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:43,593-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:43,595-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-05-09 21:14:43,610-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-22, interfaceId=100100, cId=33}
+2018-05-09 21:14:43,611-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {openId=wsw-22, interfaceId=100100, cId=33}
+2018-05-09 21:14:44,579-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, userName=wsw-21, version=2.0.0, userId=504286, playStatus=1, userAgree=1, score=null, money=1992, position=null, state=1, notice=文明游戏，禁止赌博}}
+2018-05-09 21:14:44,581-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：1832
+2018-05-09 21:14:44,591-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=504286, roomId=456453}
+2018-05-09 21:14:44,598-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=504286, roomId=456453}
+2018-05-09 21:14:44,599-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:44,825-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-05-09 21:14:44,826-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：228
+2018-05-09 21:14:44,890-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, userName=wsw-20, version=2.0.0, userId=996788, playStatus=1, userAgree=1, score=null, money=1776, position=null, state=1, notice=文明游戏，禁止赌博}}
+2018-05-09 21:14:44,892-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：2139
+2018-05-09 21:14:44,923-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=996788, roomId=456453}
+2018-05-09 21:14:44,929-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=996788, roomId=456453}
+2018-05-09 21:14:44,930-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:45,043-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为132329f0,当前连接数为：4
+2018-05-09 21:14:45,049-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:45,055-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:45,061-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：6
+2018-05-09 21:14:45,067-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-23, interfaceId=100100, cId=33}
+2018-05-09 21:14:45,068-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {openId=wsw-23, interfaceId=100100, cId=33}
+2018-05-09 21:14:45,085-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-05-09 21:14:45,087-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：158
+2018-05-09 21:14:45,512-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, userName=wsw-22, version=2.0.0, userId=374337, playStatus=1, userAgree=1, score=null, money=2000, position=null, state=1, notice="文明游戏，禁止赌博"}}
+2018-05-09 21:14:45,513-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：1902
+2018-05-09 21:14:45,516-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=374337, roomId=456453}
+2018-05-09 21:14:45,516-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=374337, roomId=456453}
+2018-05-09 21:14:45,516-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:45,627-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-05-09 21:14:45,628-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：112
+2018-05-09 21:14:46,882-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, userName=wsw-23, version=2.0.0, userId=527092, playStatus=1, userAgree=1, score=null, money=2000, position=null, state=1, notice="文明游戏，禁止赌博"}}
+2018-05-09 21:14:46,883-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：1815
+2018-05-09 21:14:46,887-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=527092, roomId=456453}
+2018-05-09 21:14:46,900-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=527092, roomId=456453}
+2018-05-09 21:14:46,901-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:47,083-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-05-09 21:14:47,084-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：184
+2018-05-09 21:14:49,820-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100007请求{ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=996788, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=1, circleNum=2}
+2018-05-09 21:14:49,821-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=996788, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=1, circleNum=2}
+2018-05-09 21:14:49,822-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 创建房间,interfaceId -> 100007
+2018-05-09 21:14:49,946-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:14:49,948-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:14:49,977-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo={playStatus=2, score=0, money=1772, position=3, playerNum=1}, reqState=1, playerNum=1, roomInfo={lastNum=2, ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=996788, roomId=476671, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, playType=1, ruleChangMao=1, rulePuFen=2, ruleQingYiSe=1, state=1, roomType=1, circleNum=2}}
+2018-05-09 21:14:50,134-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：313
+2018-05-09 21:14:52,609-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为0af29dcb,当前连接数为：3
+2018-05-09 21:14:53,139-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为52fe3d5d,当前连接数为：4
+2018-05-09 21:14:53,158-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:53,186-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:53,190-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-05-09 21:14:53,220-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-21, interfaceId=100100, cId=33}
+2018-05-09 21:14:53,374-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {openId=wsw-21, interfaceId=100100, cId=33}
+2018-05-09 21:14:53,923-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, userName=wsw-21, version=2.0.0, userId=504286, playStatus=1, userAgree=1, score=null, money=1992, position=null, state=1, notice="文明游戏，禁止赌博"}}
+2018-05-09 21:14:53,925-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：686
+2018-05-09 21:14:53,937-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=504286, roomId=476671}
+2018-05-09 21:14:53,939-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=504286, roomId=476671}
+2018-05-09 21:14:53,939-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:54,056-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为41f73efc,当前连接数为：3
+2018-05-09 21:14:54,101-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/504286.jpg","money":1992,"gender":"1","ip":"192.168.1.156","state":1,"position":2,"userName":"wsw-21","userId":504286},{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/996788.jpg","money":1772,"gender":"1","ip":"192.168.1.156","state":1,"position":3,"userName":"wsw-20","userId":996788}], reqState=1, playerNum=2, roomInfo={lastNum=2, ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:14:54,326-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/504286.jpg","money":1992,"gender":"1","ip":"192.168.1.156","state":1,"position":2,"userName":"wsw-21","userId":504286}
+2018-05-09 21:14:54,326-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：387
+2018-05-09 21:14:54,512-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为b7ea3df7,当前连接数为：4
+2018-05-09 21:14:54,545-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:54,547-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:54,550-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-05-09 21:14:54,568-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-22, interfaceId=100100, cId=33}
+2018-05-09 21:14:54,570-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {openId=wsw-22, interfaceId=100100, cId=33}
+2018-05-09 21:14:54,623-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100200请求{interfaceId=100200, userId=504286, roomId=476671}
+2018-05-09 21:14:54,624-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=100200, userId=504286, roomId=476671}
+2018-05-09 21:14:54,635-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100200
+2018-05-09 21:14:54,957-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=504286}, {playStatus=2, userId=996788}], roomInfo={state=1}}
+2018-05-09 21:14:54,959-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=504286}, {playStatus=2, userId=996788}], roomInfo={state=1}}
+2018-05-09 21:14:55,140-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：516
+2018-05-09 21:14:55,304-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, userName=wsw-22, version=2.0.0, userId=374337, playStatus=1, userAgree=1, score=null, money=2000, position=null, state=1, notice="文明游戏，禁止赌博"}}
+2018-05-09 21:14:55,305-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：735
+2018-05-09 21:14:55,308-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=374337, roomId=476671}
+2018-05-09 21:14:55,308-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=374337, roomId=476671}
+2018-05-09 21:14:55,308-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:55,521-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{"score":0,"playStatus":3,"userImg":"http://192.168.1.123/headimg/504286.jpg","money":1992,"gender":"1","ip":"192.168.1.156","state":1,"position":2,"userName":"wsw-21","userId":504286},{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/996788.jpg","money":1772,"gender":"1","ip":"192.168.1.156","state":1,"position":3,"userName":"wsw-20","userId":996788},{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/374337.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":4,"userName":"wsw-22","userId":374337}], reqState=1, playerNum=3, roomInfo={lastNum=2, ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:14:55,626-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100200请求{interfaceId=100200, userId=374337, roomId=476671}
+2018-05-09 21:14:55,627-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {interfaceId=100200, userId=374337, roomId=476671}
+2018-05-09 21:14:55,627-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100200
+2018-05-09 21:14:55,679-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/374337.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":4,"userName":"wsw-22","userId":374337}
+2018-05-09 21:14:55,690-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为132329f0,当前连接数为：3
+2018-05-09 21:14:55,745-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/374337.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":4,"userName":"wsw-22","userId":374337}
+2018-05-09 21:14:55,749-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：441
+2018-05-09 21:14:55,928-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:55,930-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:55,932-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:56,159-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为b083693a,当前连接数为：4
+2018-05-09 21:14:56,166-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:14:56,167-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:14:56,171-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：4
+2018-05-09 21:14:56,179-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-23, interfaceId=100100, cId=33}
+2018-05-09 21:14:56,181-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {openId=wsw-23, interfaceId=100100, cId=33}
+2018-05-09 21:14:56,198-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：571
+2018-05-09 21:14:56,820-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, userName=wsw-23, version=2.0.0, userId=527092, playStatus=1, userAgree=1, score=null, money=2000, position=null, state=1, notice="文明游戏，禁止赌博"}}
+2018-05-09 21:14:56,824-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：643
+2018-05-09 21:14:56,832-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=527092, roomId=476671}
+2018-05-09 21:14:56,835-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=527092, roomId=476671}
+2018-05-09 21:14:56,837-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-05-09 21:14:57,216-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/299148.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":1,"userName":"wsw-23","userId":527092},{"score":0,"playStatus":3,"userImg":"http://192.168.1.123/headimg/504286.jpg","money":1992,"gender":"1","ip":"192.168.1.156","state":1,"position":2,"userName":"wsw-21","userId":504286},{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/996788.jpg","money":1772,"gender":"1","ip":"192.168.1.156","state":1,"position":3,"userName":"wsw-20","userId":996788},{"score":0,"playStatus":3,"userImg":"http://192.168.1.123/headimg/374337.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":4,"userName":"wsw-22","userId":374337}], reqState=1, playerNum=4, roomInfo={lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:14:57,405-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100200请求{interfaceId=100200, userId=527092, roomId=476671}
+2018-05-09 21:14:57,408-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {interfaceId=100200, userId=527092, roomId=476671}
+2018-05-09 21:14:57,409-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100200
+2018-05-09 21:14:57,439-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/299148.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":1,"userName":"wsw-23","userId":527092}
+2018-05-09 21:14:57,656-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=527092}, {playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:57,657-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=527092}, {playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:57,658-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=527092}, {playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:57,659-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=3, userId=527092}, {playStatus=3, userId=504286}, {playStatus=2, userId=996788}, {playStatus=3, userId=374337}], roomInfo={state=1}}
+2018-05-09 21:14:57,728-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/299148.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":1,"userName":"wsw-23","userId":527092}
+2018-05-09 21:14:58,000-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：592
+2018-05-09 21:14:58,062-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/299148.jpg","money":2000,"gender":"1","ip":"192.168.1.156","state":1,"position":1,"userName":"wsw-23","userId":527092}
+2018-05-09 21:14:58,063-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：1228
+2018-05-09 21:14:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:14:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:15:02,566-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为55229fe4,当前连接数为：3
+2018-05-09 21:15:02,584-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为b7ea3df7,当前连接数为：2
+2018-05-09 21:15:02,595-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为52fe3d5d,当前连接数为：1
+2018-05-09 21:15:02,611-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为b083693a,当前连接数为：0
+2018-05-09 21:15:03,497-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为7e1cdaaf,当前连接数为：1
+2018-05-09 21:15:03,510-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为cb2aaea2,当前连接数为：2
+2018-05-09 21:15:03,550-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:15:03,550-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:15:03,551-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-05-09 21:15:03,563-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:15:03,566-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:15:03,567-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-05-09 21:15:03,592-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,595-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,600-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-21, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,600-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {openId=wsw-21, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,682-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=996788}
+2018-05-09 21:15:03,685-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为87c79a4a,当前连接数为：3
+2018-05-09 21:15:03,688-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:15:03,689-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:15:03,691-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-05-09 21:15:03,697-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为44482885,当前连接数为：4
+2018-05-09 21:15:03,703-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-22, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,706-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {openId=wsw-22, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,713-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:15:03,714-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:15:03,715-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-05-09 21:15:03,723-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-23, interfaceId=100100, cId=33}
+2018-05-09 21:15:03,728-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {openId=wsw-23, interfaceId=100100, cId=33}
+2018-05-09 21:15:04,364-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=527092}
+2018-05-09 21:15:04,564-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=504286}
+2018-05-09 21:15:04,767-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=374337}
+2018-05-09 21:15:04,938-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=504286}
+2018-05-09 21:15:04,985-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=996788}
+2018-05-09 21:15:05,016-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, userName=wsw-20, version=2.0.0, userId=996788, playStatus=2, userAgree=1, score=0, money=1772, position=3, state=1, notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:15:05,019-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:15:05,020-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, userName=wsw-23, userId=527092, playStatus=3, userAgree=1, score=0, money=2000, position=1, state=2, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, userName=wsw-21, userId=504286, playStatus=3, userAgree=1, score=0, money=1992, position=2, state=2, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, userName=wsw-22, userId=374337, playStatus=3, userAgree=1, score=0, money=2000, position=4, state=2, notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:15:05,024-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：1430
+2018-05-09 21:15:05,043-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, userName=wsw-21, version=2.0.0, userId=504286, playStatus=3, userAgree=1, score=0, money=1992, position=2, state=1, notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:15:05,047-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:15:05,049-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, userName=wsw-23, userId=527092, playStatus=3, userAgree=1, score=0, money=2000, position=1, state=2, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, userName=wsw-20, userId=996788, playStatus=2, userAgree=1, score=0, money=1772, position=3, state=2, notice=文明游戏，禁止赌博}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, userName=wsw-22, userId=374337, playStatus=3, userAgree=1, score=0, money=2000, position=4, state=2, notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:15:05,051-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：1451
+2018-05-09 21:15:05,083-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=527092}
+2018-05-09 21:15:05,135-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, userName=wsw-23, version=2.0.0, userId=527092, playStatus=3, userAgree=1, score=0, money=2000, position=1, state=1, notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:15:05,137-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:15:05,138-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, userName=wsw-21, userId=504286, playStatus=3, userAgree=1, score=0, money=1992, position=2, state=1, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, userName=wsw-20, userId=996788, playStatus=2, userAgree=1, score=0, money=1772, position=3, state=1, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, userName=wsw-22, userId=374337, playStatus=3, userAgree=1, score=0, money=2000, position=4, state=2, notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:15:05,144-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：1416
+2018-05-09 21:15:05,215-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=374337}
+2018-05-09 21:15:05,246-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, userName=wsw-22, version=2.0.0, userId=374337, playStatus=3, userAgree=1, score=0, money=2000, position=4, state=1, notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:15:05,248-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, ruleQiDui=2, scoreType=1, xjst=null, userName=wsw-20, ruleXuanFeng=1, userId=996788, roomId=476671, dissolveRoom=null, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, createTime=1525871689919, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, roomType=1, circleNum=2}}
+2018-05-09 21:15:05,249-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, userName=wsw-23, userId=527092, playStatus=3, userAgree=1, score=0, money=2000, position=1, state=1, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, userName=wsw-21, userId=504286, playStatus=3, userAgree=1, score=0, money=1992, position=2, state=1, notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, userName=wsw-20, userId=996788, playStatus=2, userAgree=1, score=0, money=1772, position=3, state=1, notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:15:05,252-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：1546
+2018-05-09 21:15:06,762-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100200请求{interfaceId=100200, userId=996788, roomId=476671}
+2018-05-09 21:15:06,765-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=100200, userId=996788, roomId=476671}
+2018-05-09 21:15:06,766-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100200
+2018-05-09 21:15:07,169-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.dao.UserMapper - sql name ==>> com.yzt.logic.mj.dao.UserMapper.getUserMoneyByUserId
+2018-05-09 21:15:07,220-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.util.PostUtil - 参数为：p_name=wsw_X14&o_name=u_consume&u_id=996788&s_count=4
+2018-05-09 21:15:07,220-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.util.PostUtil - url：http://47.93.61.29:8999/gmserver/open/us.statistic.index.html
+2018-05-09 21:15:07,273-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=4, userId=527092}, {playStatus=4, userId=504286}, {playStatus=4, userId=996788}, {playStatus=4, userId=374337}], nextActionUserId=527092, nextAction=[-1], roomInfo={state=3}, pais=[34, 4, 15, 7, 33, 17, 31, 10, 24, 30, 29, 12, 20]}
+2018-05-09 21:15:07,276-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=4, userId=527092}, {playStatus=4, userId=504286}, {playStatus=4, userId=996788}, {playStatus=4, userId=374337}], nextActionUserId=527092, nextAction=[-1], roomInfo={state=3}, pais=[14, 8, 11, 6, 19, 8, 33, 13, 22, 32, 11, 30, 30]}
+2018-05-09 21:15:07,280-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=4, userId=527092}, {playStatus=4, userId=504286}, {playStatus=4, userId=996788}, {playStatus=4, userId=374337}], nextActionUserId=527092, nextAction=[-1], roomInfo={state=3}, pais=[32, 7, 29, 29, 1, 25, 23, 14, 32, 31, 3, 12, 2]}
+2018-05-09 21:15:07,283-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo=[{playStatus=4, userId=527092}, {playStatus=4, userId=504286}, {playStatus=4, userId=996788}, {playStatus=4, userId=374337}], nextActionUserId=527092, nextAction=[-1], roomInfo={state=3}, pais=[26, 18, 23, 27, 10, 13, 34, 22, 16, 24, 22, 9, 24]}
+2018-05-09 21:15:07,338-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：573
+2018-05-09 21:15:08,516-[YZT] [ERROR] pool-5-thread-2 com.yzt.logic.util.PostUtil - 发送 POST 请求出现异常！
+2018-05-09 21:15:08,516-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.util.PostUtil - 统计借口调用结果：
+2018-05-09 21:15:09,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:15:09,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:15:10,326-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:10,327-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:10,327-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:10,627-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:11,063-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:11,065-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:11,068-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:11,069-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:11,070-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：743
+2018-05-09 21:15:11,084-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:11,086-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:11,182-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26,29,7,13,10,9,3]}
+2018-05-09 21:15:11,188-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：102
+2018-05-09 21:15:13,277-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=34, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:13,278-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {action=34, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:13,278-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:13,530-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:13,967-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:13,968-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:13,973-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:13,973-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:13,974-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：696
+2018-05-09 21:15:14,326-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:14,326-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:14,327-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:14,597-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:14,960-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:14,961-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=3, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:14,962-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:14,963-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:14,964-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：638
+2018-05-09 21:15:14,995-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:14,995-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:15,067-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26,29,7,13,10,9]}
+2018-05-09 21:15:15,073-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：78
+2018-05-09 21:15:17,532-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=32, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:17,532-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=32, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:17,532-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:17,616-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:17,689-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=32, state=3, userId=504286}
+2018-05-09 21:15:17,692-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=32, state=3, userId=504286}
+2018-05-09 21:15:17,693-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=32, state=3, nextAction=[88, 0], userId=504286}
+2018-05-09 21:15:17,695-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=32, state=3, userId=504286}
+2018-05-09 21:15:17,695-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：163
+2018-05-09 21:15:19,077-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=88, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:19,078-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {action=88, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:19,078-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:19,147-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 57-90中的牌    我碰了啊!!!
+2018-05-09 21:15:19,323-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=88, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:19,326-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=88, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:19,327-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=88, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:19,327-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=32, nextActionUserId=996788, action=88, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:19,328-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：250
+2018-05-09 21:15:19,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:15:19,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:15:20,448-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=31, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:20,449-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {action=31, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:20,449-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:20,502-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:20,582-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=374337, action=31, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:20,583-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=374337, action=31, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:20,584-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=374337, action=31, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:20,585-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=374337, action=31, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:20,585-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：136
+2018-05-09 21:15:20,936-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:20,936-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:20,936-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:20,990-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:21,058-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:21,059-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:21,062-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:21,064-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=9, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:21,066-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：130
+2018-05-09 21:15:21,152-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:21,153-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:21,178-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26,29,7,13,10]}
+2018-05-09 21:15:21,181-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：28
+2018-05-09 21:15:22,442-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=34, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:22,444-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {action=34, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:22,447-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:22,498-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:22,619-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=527092, action=34, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:22,620-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=527092, action=34, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:22,621-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=527092, action=34, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:22,622-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=527092, action=34, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:22,622-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：178
+2018-05-09 21:15:23,007-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:23,009-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:23,010-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:23,087-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:23,181-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:23,182-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:23,183-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:23,184-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:23,185-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：176
+2018-05-09 21:15:23,203-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:23,204-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:23,227-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26,29,7,13]}
+2018-05-09 21:15:23,233-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：29
+2018-05-09 21:15:24,486-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=31, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:24,486-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {action=31, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:24,486-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:24,654-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:24,936-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=504286, action=31, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:24,937-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=504286, action=31, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:24,938-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=504286, action=31, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:24,938-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=504286, action=31, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:24,939-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：453
+2018-05-09 21:15:25,289-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:25,289-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:25,289-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:25,370-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:25,460-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:25,461-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:25,464-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:25,466-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:25,467-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：178
+2018-05-09 21:15:25,502-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:25,502-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:25,518-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26,29,7]}
+2018-05-09 21:15:25,520-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：18
+2018-05-09 21:15:26,909-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=33, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:26,911-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {action=33, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:26,912-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:27,019-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:27,099-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=996788, action=33, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:27,102-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=996788, action=33, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:27,103-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=996788, action=33, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:27,103-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=996788, action=33, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:27,104-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：193
+2018-05-09 21:15:27,447-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:27,448-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:27,449-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:27,605-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:27,671-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:27,673-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:27,676-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:27,678-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:27,679-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：231
+2018-05-09 21:15:27,724-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:27,724-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:27,740-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26,29]}
+2018-05-09 21:15:27,743-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：19
+2018-05-09 21:15:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:15:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:15:35,583-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=7, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:35,584-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {action=7, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:35,584-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:35,632-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:35,711-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:35,713-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:35,713-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:35,715-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:35,715-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：131
+2018-05-09 21:15:36,053-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:36,055-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:36,056-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:36,102-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:36,166-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:36,167-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:36,168-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:36,169-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:36,171-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:15:36,235-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:36,235-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:36,249-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33,26]}
+2018-05-09 21:15:36,251-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：16
+2018-05-09 21:15:37,486-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=29, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:37,486-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {action=29, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:37,486-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:37,533-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:37,608-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=29, state=3, userId=374337}
+2018-05-09 21:15:37,612-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=29, state=3, userId=374337}
+2018-05-09 21:15:37,613-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=29, state=3, nextAction=[85, 0], userId=374337}
+2018-05-09 21:15:37,613-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=29, state=3, userId=374337}
+2018-05-09 21:15:37,614-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：128
+2018-05-09 21:15:39,266-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=85, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:39,267-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {action=85, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:39,267-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:39,311-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 57-90中的牌    我碰了啊!!!
+2018-05-09 21:15:39,375-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=85, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:39,376-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=85, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:39,380-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=85, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:39,381-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=996788, action=85, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:39,382-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:15:39,932-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:15:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:15:40,866-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=23, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:40,867-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=23, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:40,867-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:40,921-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:41,010-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=23, state=3, userId=996788}
+2018-05-09 21:15:41,013-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=23, state=3, userId=996788}
+2018-05-09 21:15:41,017-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=23, state=3, userId=996788}
+2018-05-09 21:15:41,019-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=23, state=3, nextAction=[52, 0], userId=996788}
+2018-05-09 21:15:41,020-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：153
+2018-05-09 21:15:43,187-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=52, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:43,187-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {action=52, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:43,188-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:43,239-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 35-55中的牌    我吃了!!!
+2018-05-09 21:15:43,336-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=52, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:43,337-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=52, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:43,337-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=52, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:43,338-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=374337, action=52, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:43,339-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：152
+2018-05-09 21:15:46,079-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=10, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:46,079-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {action=10, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:46,081-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:46,374-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:46,838-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=10, state=3, nextAction=[66, 0], userId=374337}
+2018-05-09 21:15:46,839-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=10, state=3, userId=374337}
+2018-05-09 21:15:46,839-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=10, state=3, userId=374337}
+2018-05-09 21:15:46,840-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=10, state=3, userId=374337}
+2018-05-09 21:15:46,840-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：761
+2018-05-09 21:15:48,460-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=66, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:48,461-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {action=66, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:48,461-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:48,693-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 57-90中的牌    我碰了啊!!!
+2018-05-09 21:15:48,902-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=66, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:48,903-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=66, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:48,905-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=66, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:48,908-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=10, nextActionUserId=527092, action=66, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:48,908-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：447
+2018-05-09 21:15:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:15:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:15:50,133-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=29, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:50,133-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {action=29, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:50,133-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:50,197-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:50,299-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=504286, action=29, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:50,300-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=504286, action=29, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:50,302-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=504286, action=29, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:50,303-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=29, nextActionUserId=504286, action=29, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:15:50,305-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：172
+2018-05-09 21:15:50,643-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:50,645-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:50,645-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:50,778-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:50,870-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:50,873-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:50,876-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:50,877-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:15:50,878-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：233
+2018-05-09 21:15:50,922-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:50,925-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:50,943-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16,33]}
+2018-05-09 21:15:50,946-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：21
+2018-05-09 21:15:53,411-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=19, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:53,411-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {action=19, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:15:53,411-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:53,540-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:53,661-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=19, nextActionUserId=996788, action=19, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:53,662-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=19, nextActionUserId=996788, action=19, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:53,663-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=19, nextActionUserId=996788, action=19, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:53,664-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=19, nextActionUserId=996788, action=19, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:15:53,665-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：254
+2018-05-09 21:15:54,031-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:54,031-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:54,032-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:54,178-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:54,241-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:54,244-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:54,247-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:54,248-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:15:54,248-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：217
+2018-05-09 21:15:54,312-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:54,312-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:54,328-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1,16]}
+2018-05-09 21:15:54,331-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：19
+2018-05-09 21:15:55,688-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=33, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:55,688-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {action=33, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:15:55,688-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:55,820-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:56,051-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=374337, action=33, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:56,052-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=374337, action=33, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:56,053-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=374337, action=33, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:56,053-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=374337, action=33, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:15:56,054-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：366
+2018-05-09 21:15:56,423-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:56,423-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:56,427-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:56,561-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:56,730-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:56,731-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:56,732-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:56,732-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=16, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:15:56,733-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：310
+2018-05-09 21:15:56,817-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:56,818-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:56,849-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4,1]}
+2018-05-09 21:15:56,853-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：35
+2018-05-09 21:15:58,986-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=18, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:58,986-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=18, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:15:58,986-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:59,043-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:15:59,117-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:59,118-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:59,118-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:59,119-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:15:59,120-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：134
+2018-05-09 21:15:59,474-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:59,474-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:15:59,474-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:15:59,526-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:15:59,583-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:59,586-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:59,587-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:59,587-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:15:59,588-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：114
+2018-05-09 21:15:59,607-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:15:59,607-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:15:59,629-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6,4]}
+2018-05-09 21:15:59,635-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：28
+2018-05-09 21:15:59,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:15:59,936-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:16:01,190-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:01,190-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:01,190-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:01,240-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:01,316-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=504286, action=1, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:01,319-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=504286, action=1, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:01,320-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=504286, action=1, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:01,320-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=504286, action=1, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:01,321-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：131
+2018-05-09 21:16:01,663-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:01,665-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:01,666-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:01,744-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:01,818-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:01,820-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:01,821-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:01,821-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:01,822-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：157
+2018-05-09 21:16:01,841-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:01,843-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:01,857-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7,6]}
+2018-05-09 21:16:01,860-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：18
+2018-05-09 21:16:03,605-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=4, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:03,606-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {action=4, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:03,606-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:03,659-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:03,734-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=4, state=3, userId=504286}
+2018-05-09 21:16:03,737-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=4, state=3, userId=504286}
+2018-05-09 21:16:03,739-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=4, state=3, nextAction=[36, 0], userId=504286}
+2018-05-09 21:16:03,740-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=4, state=3, userId=504286}
+2018-05-09 21:16:03,740-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：134
+2018-05-09 21:16:05,391-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=36, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:05,392-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {action=36, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:05,392-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:05,439-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 35-55中的牌    我吃了!!!
+2018-05-09 21:16:05,498-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=36, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:05,499-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=36, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:05,502-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=36, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:05,505-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=996788, action=36, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:05,507-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:16:06,697-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=7, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:06,697-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {action=7, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:06,697-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:06,743-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:06,821-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:06,824-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:06,828-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:06,829-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:06,829-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：132
+2018-05-09 21:16:07,179-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:07,179-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:07,180-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:07,235-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:07,297-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:07,298-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:07,299-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:07,299-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=6, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:07,300-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：121
+2018-05-09 21:16:07,349-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:07,349-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:07,362-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24,7]}
+2018-05-09 21:16:07,364-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：15
+2018-05-09 21:16:08,958-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-05-09 21:16:08,973-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-05-09 21:16:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:16:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:16:09,949-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=13, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:09,949-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {action=13, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:09,950-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:10,000-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:10,078-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=13, state=3, userId=374337}
+2018-05-09 21:16:10,080-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=13, state=3, nextAction=[69, 0], userId=374337}
+2018-05-09 21:16:10,083-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=13, state=3, userId=374337}
+2018-05-09 21:16:10,084-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=13, state=3, userId=374337}
+2018-05-09 21:16:10,084-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：135
+2018-05-09 21:16:11,848-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=69, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:11,849-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {action=69, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:11,849-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:11,894-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 57-90中的牌    我碰了啊!!!
+2018-05-09 21:16:11,955-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=69, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:11,957-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=69, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:11,959-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=69, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:11,961-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=13, nextActionUserId=504286, action=69, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:11,963-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：114
+2018-05-09 21:16:14,271-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=26, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:14,272-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {action=26, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:14,272-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:14,332-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:14,446-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=996788, action=26, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:14,449-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=996788, action=26, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:14,449-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=996788, action=26, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:14,450-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=996788, action=26, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:14,451-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：179
+2018-05-09 21:16:14,807-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:14,807-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:14,807-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:14,997-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:15,197-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:15,198-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:15,199-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:15,200-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:15,200-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：393
+2018-05-09 21:16:15,257-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:15,258-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:15,298-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34,24]}
+2018-05-09 21:16:15,300-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：42
+2018-05-09 21:16:17,623-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:17,624-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:17,624-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:17,674-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:17,753-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=374337, action=1, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:17,754-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=374337, action=1, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:17,755-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=374337, action=1, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:17,756-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=1, nextActionUserId=374337, action=1, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:17,756-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：132
+2018-05-09 21:16:18,122-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:18,122-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:18,122-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:18,170-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:18,230-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:18,231-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:18,234-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:18,236-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=24, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:18,237-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:16:18,322-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:18,322-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:18,335-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21,34]}
+2018-05-09 21:16:18,338-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：16
+2018-05-09 21:16:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:16:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:16:28,349-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=27, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:28,349-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=27, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:28,349-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:28,496-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:28,809-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=27, nextActionUserId=527092, action=27, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:28,810-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=27, nextActionUserId=527092, action=27, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:28,813-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=27, nextActionUserId=527092, action=27, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:28,815-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=27, nextActionUserId=527092, action=27, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:28,816-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：467
+2018-05-09 21:16:29,199-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:29,199-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:29,199-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:29,317-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:29,499-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:29,500-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:29,500-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:29,501-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:29,501-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：302
+2018-05-09 21:16:29,514-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:29,514-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:29,542-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15,21]}
+2018-05-09 21:16:29,548-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：34
+2018-05-09 21:16:29,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:16:29,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:16:34,172-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=34, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:34,172-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {action=34, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:34,172-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:34,246-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:34,319-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:34,320-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:34,321-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:34,321-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=34, nextActionUserId=504286, action=34, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:16:34,322-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：150
+2018-05-09 21:16:34,659-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:34,659-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:34,659-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:34,705-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:34,770-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:34,771-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:34,772-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:34,772-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:34,773-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：114
+2018-05-09 21:16:34,803-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:34,803-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:34,818-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18,15]}
+2018-05-09 21:16:34,820-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：17
+2018-05-09 21:16:39,496-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=14, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:39,496-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {action=14, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:39,497-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:39,548-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:39,624-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=14, nextActionUserId=996788, action=14, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:39,625-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=14, nextActionUserId=996788, action=14, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:39,626-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=14, nextActionUserId=996788, action=14, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:39,626-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=14, nextActionUserId=996788, action=14, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:16:39,627-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：131
+2018-05-09 21:16:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:16:39,937-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:16:39,958-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:39,959-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:39,959-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:40,008-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:40,071-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:40,073-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:40,076-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=15, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:40,077-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:16:40,077-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：118
+2018-05-09 21:16:40,116-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:40,116-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:40,129-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33,18]}
+2018-05-09 21:16:40,132-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：16
+2018-05-09 21:16:42,670-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=7, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:42,671-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {action=7, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:16:42,671-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:42,721-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:42,798-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:42,799-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:42,800-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:42,801-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {extra=7, nextActionUserId=374337, action=7, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:16:42,801-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：130
+2018-05-09 21:16:43,139-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:43,140-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:43,140-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:43,189-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:43,272-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:43,274-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:43,277-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:43,278-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:16:43,279-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：139
+2018-05-09 21:16:43,335-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:43,335-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:43,355-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8,33]}
+2018-05-09 21:16:43,360-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：25
+2018-05-09 21:16:45,057-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=18, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:45,058-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {action=18, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:16:45,058-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:45,113-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:45,184-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:45,186-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:45,187-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:45,187-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=527092, action=18, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:16:45,188-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：130
+2018-05-09 21:16:45,549-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:45,549-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:45,550-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:45,613-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:16:45,676-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=33, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:45,679-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:45,681-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:45,682-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:16:45,682-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：133
+2018-05-09 21:16:45,689-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:16:45,690-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:16:45,713-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18,8]}
+2018-05-09 21:16:45,716-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：26
+2018-05-09 21:16:47,323-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=30, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:47,323-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {action=30, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:16:47,323-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:47,404-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:16:47,489-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=30, state=3, userId=527092}
+2018-05-09 21:16:47,489-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=30, state=3, nextAction=[86, 0], userId=527092}
+2018-05-09 21:16:47,490-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=30, state=3, userId=527092}
+2018-05-09 21:16:47,491-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=30, state=3, userId=527092}
+2018-05-09 21:16:47,493-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：170
+2018-05-09 21:16:49,303-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=86, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:49,304-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=86, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:16:49,304-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:16:49,350-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 57-90中的牌    我碰了啊!!!
+2018-05-09 21:16:49,413-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=86, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:49,416-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=86, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:49,417-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=86, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:49,418-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=30, nextActionUserId=504286, action=86, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:16:49,419-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:16:49,939-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:16:49,939-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:16:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:16:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:17:02,963-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999997请求{interfaceId=999997, userId=996788, roomId=476671, pais=[15,14,15,21]}
+2018-05-09 21:17:02,964-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=999997, userId=996788, roomId=476671, pais=[15,14,15,21]}
+2018-05-09 21:17:03,020-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：56
+2018-05-09 21:17:03,504-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为7e1cdaaf,当前连接数为：3
+2018-05-09 21:17:03,604-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=996788}
+2018-05-09 21:17:04,103-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为139bb025,当前连接数为：4
+2018-05-09 21:17:04,118-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:17:04,119-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:17:04,120-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-05-09 21:17:04,154-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:17:04,154-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:17:04,347-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=996788}
+2018-05-09 21:17:04,377-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, actionList=[88, 85, {extra=4, action=36}], userName=wsw-20, version=2.0.0, userId=996788, pais=[15, 14, 15, 21], playStatus=4, userAgree=1, score=0, money=1772, position=3, state=1, chuList=[31, 7, 33, 7, 1, 7], notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:17:04,381-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={scoreType=1, roomId=476671, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, lastAction=86, rulePuFen=2, state=3, ruleQingYiSe=1, roomType=1, lastActionUserId=504286, lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, ruleQiDui=2, xjst=1525871706813, userName=wsw-20, ruleXuanFeng=1, userId=996788, lastFaUserId=527092, dissolveRoom=null, createTime=1525871689919, ruleChangMao=1, playType=1, currMJNum=64, circleNum=2, currActionUserId=504286}}
+2018-05-09 21:17:04,382-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, actionList=[66], userName=wsw-23, userId=527092, pais=10, playStatus=4, userAgree=1, score=0, money=2000, position=1, state=1, chuList=[34, 31, 29, 1, 34], notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, actionList=[69, 86], userName=wsw-21, userId=504286, pais=8, playStatus=4, userAgree=1, score=0, money=1992, position=2, state=1, chuList=[33, 19, 26, 14], notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, actionList=[{extra=23, action=52}], userName=wsw-22, userId=374337, pais=10, playStatus=4, userAgree=1, score=0, money=2000, position=4, state=1, chuList=[34, 18, 27, 18], notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:17:04,385-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：231
+2018-05-09 21:17:05,987-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=21, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:05,988-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {action=21, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:05,988-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:06,031-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:06,122-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=996788, action=21, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:06,123-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=996788, action=21, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:06,124-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=996788, action=21, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:06,125-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=996788, action=21, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:06,125-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：138
+2018-05-09 21:17:06,476-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:06,477-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:06,478-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:06,535-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:06,610-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:06,612-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:06,614-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:06,618-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:06,619-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：142
+2018-05-09 21:17:06,673-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:06,674-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:06,693-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23,18]}
+2018-05-09 21:17:06,697-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：23
+2018-05-09 21:17:09,938-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:17:09,939-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:17:11,810-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=8, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:11,810-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {action=8, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:11,811-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:11,857-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:11,944-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=8, state=3, userId=996788}
+2018-05-09 21:17:11,945-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=8, state=3, nextAction=[64, 0], userId=996788}
+2018-05-09 21:17:11,947-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=8, state=3, userId=996788}
+2018-05-09 21:17:11,947-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=8, state=3, userId=996788}
+2018-05-09 21:17:11,948-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：138
+2018-05-09 21:17:16,170-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999997请求{interfaceId=999997, userId=996788, roomId=476671, pais=[14,15,16,21]}
+2018-05-09 21:17:16,171-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {interfaceId=999997, userId=996788, roomId=476671, pais=[14,15,16,21]}
+2018-05-09 21:17:16,212-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：41
+2018-05-09 21:17:16,688-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为139bb025,当前连接数为：3
+2018-05-09 21:17:16,747-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=996788}
+2018-05-09 21:17:17,248-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为2a3643ae,当前连接数为：4
+2018-05-09 21:17:17,252-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:17:17,252-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:17:17,254-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-05-09 21:17:17,261-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:17:17,262-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:17:17,409-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=996788}
+2018-05-09 21:17:17,438-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, actionList=[88, 85, {extra=4, action=36}], userName=wsw-20, version=2.0.0, userId=996788, pais=[14, 15, 16, 21], playStatus=4, userAgree=1, score=0, money=1772, position=3, state=1, chuList=[31, 7, 33, 7, 1, 7, 8], notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:17:17,443-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={scoreType=1, roomId=476671, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, lastAction=8, rulePuFen=2, state=3, ruleQingYiSe=1, roomType=1, lastActionUserId=996788, lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, lastChuUserId=996788, ruleQiDui=2, xjst=1525871706813, userName=wsw-20, ruleXuanFeng=1, userId=996788, lastFaUserId=996788, dissolveRoom=null, createTime=1525871689919, ruleChangMao=1, playType=1, currMJNum=63, circleNum=2, currActionUserId=504286}}
+2018-05-09 21:17:17,444-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, actionList=[66], userName=wsw-23, userId=527092, pais=10, playStatus=4, userAgree=1, score=0, money=2000, position=1, state=1, chuList=[34, 31, 29, 1, 34], notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, actionList=[69, 86], userName=wsw-21, userId=504286, pais=7, playStatus=4, userAgree=1, score=0, money=1992, position=2, state=1, chuList=[33, 19, 26, 14, 21], notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, actionList=[{extra=23, action=52}], userName=wsw-22, userId=374337, pais=10, playStatus=4, userAgree=1, score=0, money=2000, position=4, state=1, chuList=[34, 18, 27, 18], notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:17:17,448-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：186
+2018-05-09 21:17:18,880-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=64, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:18,881-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {action=64, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:18,881-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:18,928-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 57-90中的牌    我碰了啊!!!
+2018-05-09 21:17:18,995-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=64, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:18,997-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=64, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:18,998-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=64, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:18,998-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=8, nextActionUserId=504286, action=64, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:18,999-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：118
+2018-05-09 21:17:19,956-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:17:19,956-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:17:22,205-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=22, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:22,205-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {action=22, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:22,205-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:22,255-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:22,328-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=22, nextActionUserId=996788, action=22, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:22,332-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=22, nextActionUserId=996788, action=22, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:22,334-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=22, nextActionUserId=996788, action=22, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:22,335-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=22, nextActionUserId=996788, action=22, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:22,336-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：131
+2018-05-09 21:17:22,668-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:22,668-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:22,668-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:22,725-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:22,788-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:22,788-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:22,789-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:22,790-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:22,790-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：122
+2018-05-09 21:17:22,831-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:22,832-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:22,855-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31,23]}
+2018-05-09 21:17:22,857-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：25
+2018-05-09 21:17:24,856-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=21, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:24,856-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {action=21, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:24,856-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:24,909-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:24,982-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=21, state=3, userId=996788}
+2018-05-09 21:17:24,985-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=21, state=3, userId=996788}
+2018-05-09 21:17:24,987-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=21, state=3, userId=996788}
+2018-05-09 21:17:24,988-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=21, state=3, nextAction=[51, 0], userId=996788}
+2018-05-09 21:17:24,989-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：133
+2018-05-09 21:17:26,608-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=51, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:26,609-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=51, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:26,609-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:26,662-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 35-55中的牌    我吃了!!!
+2018-05-09 21:17:26,721-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=51, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:26,722-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=51, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:26,723-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=51, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:26,723-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=21, nextActionUserId=374337, action=51, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:26,724-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:17:29,163-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=26, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:29,163-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {action=26, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:29,163-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:29,211-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:29,305-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=527092, action=26, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:29,307-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=527092, action=26, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:29,307-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=527092, action=26, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:29,308-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=527092, action=26, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:29,308-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：145
+2018-05-09 21:17:29,664-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:29,664-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:29,665-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:29,709-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:29,776-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {extra=23, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:29,777-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:29,777-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:29,778-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:29,778-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：114
+2018-05-09 21:17:29,783-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:29,785-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:29,799-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26,31]}
+2018-05-09 21:17:29,805-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：20
+2018-05-09 21:17:29,941-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:17:29,941-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:17:31,638-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=18, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:31,639-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {action=18, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:31,640-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:31,691-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:31,773-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=504286, action=18, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:31,776-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=504286, action=18, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:31,777-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=504286, action=18, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:31,777-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=504286, action=18, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:31,778-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：139
+2018-05-09 21:17:32,099-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:32,099-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:32,100-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:32,147-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:32,209-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:32,210-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:32,211-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:32,211-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:32,212-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：113
+2018-05-09 21:17:32,230-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:32,230-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:32,250-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17,26]}
+2018-05-09 21:17:32,252-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：22
+2018-05-09 21:17:36,790-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=31, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:36,791-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {action=31, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:36,792-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:36,836-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:36,929-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=996788, action=31, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:36,932-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=996788, action=31, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:36,933-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=996788, action=31, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:36,934-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=31, nextActionUserId=996788, action=31, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:36,935-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：144
+2018-05-09 21:17:37,306-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:37,306-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:37,306-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:37,355-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:37,427-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:37,429-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:37,431-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:37,434-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:37,435-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：129
+2018-05-09 21:17:37,500-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:37,500-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:37,513-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12,17]}
+2018-05-09 21:17:37,517-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：17
+2018-05-09 21:17:39,518-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=26, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:39,518-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {action=26, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:39,518-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:39,591-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:39,680-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=374337, action=26, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:17:39,683-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=374337, action=26, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:17:39,685-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=374337, action=26, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:17:39,685-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {extra=26, nextActionUserId=374337, action=26, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:17:39,686-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：168
+2018-05-09 21:17:39,937-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:17:39,937-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:17:40,037-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:40,037-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:40,037-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:40,089-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:40,155-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:40,156-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:40,157-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:40,158-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {extra=17, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:17:40,158-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：121
+2018-05-09 21:17:40,202-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:40,202-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:40,215-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2,12]}
+2018-05-09 21:17:40,220-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：17
+2018-05-09 21:17:41,830-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=17, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:41,832-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=17, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:17:41,832-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:41,881-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:41,957-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=17, nextActionUserId=527092, action=17, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:41,958-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=17, nextActionUserId=527092, action=17, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:41,961-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=17, nextActionUserId=527092, action=17, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:41,962-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {extra=17, nextActionUserId=527092, action=17, state=3, nextAction=[-1], userId=374337}
+2018-05-09 21:17:41,964-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：132
+2018-05-09 21:17:42,296-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:42,298-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:42,298-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:42,346-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:42,410-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {extra=12, nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:42,412-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:42,414-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:42,417-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=527092, action=-1, state=3, nextAction=[501], userId=527092}
+2018-05-09 21:17:42,420-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：122
+2018-05-09 21:17:42,425-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:42,425-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:42,443-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6,2]}
+2018-05-09 21:17:42,447-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：22
+2018-05-09 21:17:45,695-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=20, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:45,696-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {action=20, interfaceId=100201, userId=527092, roomId=476671}
+2018-05-09 21:17:45,696-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:45,763-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:45,853-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=20, nextActionUserId=504286, action=20, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:45,856-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=20, nextActionUserId=504286, action=20, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:45,858-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=20, nextActionUserId=504286, action=20, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:45,858-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {extra=20, nextActionUserId=504286, action=20, state=3, nextAction=[-1], userId=527092}
+2018-05-09 21:17:45,859-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：163
+2018-05-09 21:17:46,210-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:46,211-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:46,211-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:46,260-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:46,319-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:46,322-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {extra=2, nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:46,324-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:46,326-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=504286, action=-1, state=3, nextAction=[501], userId=504286}
+2018-05-09 21:17:46,327-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：115
+2018-05-09 21:17:46,395-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:46,395-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:46,407-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4,6]}
+2018-05-09 21:17:46,409-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：14
+2018-05-09 21:17:48,211-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=6, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:48,212-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {action=6, interfaceId=100201, userId=504286, roomId=476671}
+2018-05-09 21:17:48,212-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:48,259-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:17:48,334-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=6, nextActionUserId=996788, action=6, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:48,337-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=6, nextActionUserId=996788, action=6, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:48,337-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=6, nextActionUserId=996788, action=6, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:48,339-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {extra=6, nextActionUserId=996788, action=6, state=3, nextAction=[-1], userId=504286}
+2018-05-09 21:17:48,342-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：130
+2018-05-09 21:17:48,689-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:48,690-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:17:48,691-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:17:48,747-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:17:48,814-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:48,817-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:48,818-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {extra=6, nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:48,818-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=996788, action=-1, state=3, nextAction=[501], userId=996788}
+2018-05-09 21:17:48,820-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：130
+2018-05-09 21:17:48,868-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:17:48,869-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:17:48,882-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8,4]}
+2018-05-09 21:17:48,884-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：15
+2018-05-09 21:17:49,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:17:49,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:17:59,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:17:59,937-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:18:09,936-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:18:09,936-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:18:19,938-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:18:19,939-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:18:22,949-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=18, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:18:22,949-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {action=18, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:18:22,949-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:18:22,994-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:18:23,089-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=374337, action=18, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:18:23,091-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=374337, action=18, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:18:23,092-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=374337, action=18, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:18:23,093-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {extra=18, nextActionUserId=374337, action=18, state=3, nextAction=[-1], userId=996788}
+2018-05-09 21:18:23,093-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：144
+2018-05-09 21:18:23,427-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:18:23,427-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {action=-1, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:18:23,428-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:18:23,615-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - -1 请求发牌!
+2018-05-09 21:18:23,712-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:18:23,713-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:18:23,714-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:18:23,715-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {extra=4, nextActionUserId=374337, action=-1, state=3, nextAction=[501], userId=374337}
+2018-05-09 21:18:23,715-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：288
+2018-05-09 21:18:23,763-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999998请求{interfaceId=999998, roomId=476671}
+2018-05-09 21:18:23,764-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {interfaceId=999998, roomId=476671}
+2018-05-09 21:18:23,778-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {"pais":[12,19,28,15,21,5,5,13,14,2,20,21,1,20,25,27,27,11,2,34,30,3,17,16,11,28,31,15,10,5,17,26,25,28,19,19,14,22,9,25,27,32,23,9,5,20,16,4,1,3,6,28,21,8]}
+2018-05-09 21:18:23,780-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：16
+2018-05-09 21:18:29,936-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:18:29,936-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:18:39,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:18:39,938-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:18:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:18:49,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:18:59,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:18:59,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:19:09,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:19:09,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:19:19,937-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:19:19,938-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:19:25,962-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到999997请求{interfaceId=999997, userId=996788, roomId=476671, pais=[24,14,15,16]}
+2018-05-09 21:19:25,963-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=999997, userId=996788, roomId=476671, pais=[24,14,15,16]}
+2018-05-09 21:19:26,012-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：49
+2018-05-09 21:19:26,492-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为2a3643ae,当前连接数为：3
+2018-05-09 21:19:26,548-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=996788}
+2018-05-09 21:19:27,114-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为e39a22bd,当前连接数为：4
+2018-05-09 21:19:27,163-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100999请求{interfaceId=100999}
+2018-05-09 21:19:27,164-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=100999}
+2018-05-09 21:19:27,164-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：0
+2018-05-09 21:19:27,175-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:19:27,175-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {openId=wsw-20, interfaceId=100100, cId=33}
+2018-05-09 21:19:27,363-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {state=1, userId=996788}
+2018-05-09 21:19:27,410-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={hasPuFen=-1, userImg=http://192.168.1.123/headimg/996788.jpg, gender=1, ip=192.168.1.156, actionList=[88, 85, {extra=4, action=36}], userName=wsw-20, version=2.0.0, userId=996788, pais=[24, 14, 15, 16], playStatus=4, userAgree=1, score=0, money=1772, position=3, state=1, chuList=[31, 7, 33, 7, 1, 7, 26, 18], notice="文明游戏，禁止赌博"}, wsw_sole_action_id=1, wsw_sole_main_id=1}
+2018-05-09 21:19:27,414-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, roomInfo={scoreType=1, roomId=476671, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=1, lastAction=-1, rulePuFen=2, state=3, ruleQingYiSe=1, roomType=1, lastActionUserId=374337, lastNum=2, ruleTuiDaoHu=2, zhuangPlayer=527092, lastChuUserId=996788, ruleQiDui=2, xjst=1525871706813, userName=wsw-20, ruleXuanFeng=1, userId=996788, lastFaUserId=374337, dissolveRoom=null, createTime=1525871689919, ruleChangMao=1, playType=1, currMJNum=54, circleNum=2, currActionUserId=374337}}
+2018-05-09 21:19:27,416-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {wsw_sole_action_id=1, wsw_sole_main_id=1, anotherUsers=[{hasPuFen=-1, userImg=http://192.168.1.123/headimg/299148.jpg, gender=1, ip=192.168.1.156, actionList=[66], userName=wsw-23, userId=527092, pais=10, playStatus=4, userAgree=1, score=0, money=2000, position=1, state=1, chuList=[34, 31, 29, 1, 34, 18, 20], notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/504286.jpg, gender=1, ip=192.168.1.156, actionList=[69, 86, 64], userName=wsw-21, userId=504286, pais=4, playStatus=4, userAgree=1, score=0, money=1992, position=2, state=1, chuList=[33, 19, 26, 14, 21, 22, 31, 6], notice="文明游戏，禁止赌博"}, {hasPuFen=-1, userImg=http://192.168.1.123/headimg/374337.jpg, gender=1, ip=192.168.1.156, actionList=[{extra=23, action=52}, {extra=21, action=51}], userName=wsw-22, userId=374337, pais=8, playStatus=4, userAgree=1, score=0, money=2000, position=4, state=1, chuList=[34, 18, 27, 18, 26, 17], notice="文明游戏，禁止赌博"}]}
+2018-05-09 21:19:27,420-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：245
+2018-05-09 21:19:28,949-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=24, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:19:28,951-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {action=24, interfaceId=100201, userId=374337, roomId=476671}
+2018-05-09 21:19:28,956-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:19:29,015-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 1-34中的牌    出牌!!!
+2018-05-09 21:19:29,183-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=24, nextActionUserId=996788, action=24, state=3, userId=374337}
+2018-05-09 21:19:29,184-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=24, nextActionUserId=996788, action=24, state=3, userId=374337}
+2018-05-09 21:19:29,184-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=24, nextActionUserId=996788, action=24, state=3, nextAction=[500, 0], userId=374337}
+2018-05-09 21:19:29,185-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {extra=24, nextActionUserId=996788, action=24, state=3, userId=374337}
+2018-05-09 21:19:29,186-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：234
+2018-05-09 21:19:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:19:29,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:19:31,144-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100201请求{action=500, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:19:31,145-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {action=500, interfaceId=100201, userId=996788, roomId=476671}
+2018-05-09 21:19:31,145-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 游戏内主逻辑,interfaceId -> 100201
+2018-05-09 21:19:31,211-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 当前用户选择胡了!!!
+2018-05-09 21:19:31,481-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {action=500, state=5, userId=996788}
+2018-05-09 21:19:31,482-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {action=500, state=5, userId=996788}
+2018-05-09 21:19:31,483-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {action=500, state=5, userId=996788}
+2018-05-09 21:19:31,485-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {action=500, state=5, userId=996788}
+2018-05-09 21:19:31,485-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：340
+2018-05-09 21:19:32,630-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100102请求{interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,631-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,632-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100102请求{interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,633-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,636-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100102请求{interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,637-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,638-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100102请求{interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,640-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100102, roomId=476671}
+2018-05-09 21:19:32,684-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {"lastNum":2,"userInfo":[{"score":-4,"gangScore":0,"actionList":[66],"huScore":-4,"userId":527092,"isDian":0,"pais":[4,7,12,12,15,17,23,24,33,33],"isWin":0},{"score":-2,"gangScore":0,"actionList":[69,86,64],"huScore":-2,"userId":504286,"isDian":0,"pais":[2,3,11,11],"isWin":0},{"score":10,"gangScore":0,"winInfo":[6,10],"actionList":[88,85,{"extra":4,"action":36}],"huScore":10,"userId":996788,"isDian":0,"pais":[24,14,15,16,24],"isWin":1},{"score":-4,"gangScore":0,"actionList":[{"extra":23,"action":52},{"extra":21,"action":51}],"huScore":-4,"userId":374337,"isDian":1,"pais":[4,6,9,9,16,16,24],"isWin":0}]}
+2018-05-09 21:19:32,687-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：56
+2018-05-09 21:19:32,747-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {"lastNum":2,"userInfo":[{"score":-4,"gangScore":0,"actionList":[66],"huScore":-4,"userId":527092,"isDian":0,"pais":[4,7,12,12,15,17,23,24,33,33],"isWin":0},{"score":-2,"gangScore":0,"actionList":[69,86,64],"huScore":-2,"userId":504286,"isDian":0,"pais":[2,3,11,11],"isWin":0},{"score":10,"gangScore":0,"winInfo":[6,10],"actionList":[88,85,{"extra":4,"action":36}],"huScore":10,"userId":996788,"isDian":0,"pais":[24,14,15,16,24],"isWin":1},{"score":-4,"gangScore":0,"actionList":[{"extra":23,"action":52},{"extra":21,"action":51}],"huScore":-4,"userId":374337,"isDian":1,"pais":[4,6,9,9,16,16,24],"isWin":0}]}
+2018-05-09 21:19:32,750-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：110
+2018-05-09 21:19:32,794-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {"lastNum":2,"userInfo":[{"score":-4,"gangScore":0,"actionList":[66],"huScore":-4,"userId":527092,"isDian":0,"pais":[4,7,12,12,15,17,23,24,33,33],"isWin":0},{"score":-2,"gangScore":0,"actionList":[69,86,64],"huScore":-2,"userId":504286,"isDian":0,"pais":[2,3,11,11],"isWin":0},{"score":10,"gangScore":0,"winInfo":[6,10],"actionList":[88,85,{"extra":4,"action":36}],"huScore":10,"userId":996788,"isDian":0,"pais":[24,14,15,16,24],"isWin":1},{"score":-4,"gangScore":0,"actionList":[{"extra":23,"action":52},{"extra":21,"action":51}],"huScore":-4,"userId":374337,"isDian":1,"pais":[4,6,9,9,16,16,24],"isWin":0}]}
+2018-05-09 21:19:32,797-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：160
+2018-05-09 21:19:32,842-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {"lastNum":2,"userInfo":[{"score":-4,"gangScore":0,"actionList":[66],"huScore":-4,"userId":527092,"isDian":0,"pais":[4,7,12,12,15,17,23,24,33,33],"isWin":0},{"score":-2,"gangScore":0,"actionList":[69,86,64],"huScore":-2,"userId":504286,"isDian":0,"pais":[2,3,11,11],"isWin":0},{"score":10,"gangScore":0,"winInfo":[6,10],"actionList":[88,85,{"extra":4,"action":36}],"huScore":10,"userId":996788,"isDian":0,"pais":[24,14,15,16,24],"isWin":1},{"score":-4,"gangScore":0,"actionList":[{"extra":23,"action":52},{"extra":21,"action":51}],"huScore":-4,"userId":374337,"isDian":1,"pais":[4,6,9,9,16,16,24],"isWin":0}]}
+2018-05-09 21:19:32,847-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：214
+2018-05-09 21:19:39,943-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:19:39,944-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:19:49,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:19:49,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:19:59,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:19:59,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:20:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:20:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:20:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:20:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:20:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:20:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:20:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:20:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:20:49,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:20:49,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:20:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:20:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:21:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:21:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:21:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:21:19,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:21:29,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:21:29,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:21:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:21:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:21:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:21:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:21:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:21:59,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:22:09,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:22:09,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:22:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:22:19,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:22:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:22:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:22:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:22:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:22:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:22:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:22:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:22:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:23:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:23:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:23:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:23:19,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:23:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:23:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:23:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:23:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:23:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:23:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:23:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:23:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:24:09,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:24:09,935-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:24:19,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:24:19,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:24:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:24:29,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:24:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:24:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:24:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:24:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:24:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:24:59,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:25:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:25:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:25:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:25:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:25:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:25:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:25:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:25:39,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:25:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:25:49,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:25:59,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:25:59,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:26:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:26:09,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:26:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:26:19,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:26:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:26:29,933-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0
+2018-05-09 21:26:39,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 总人数：4
+2018-05-09 21:26:39,934-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - pingpongsize：0

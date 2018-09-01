@@ -1,0 +1,1286 @@
+2018-04-23 17:24:58,049-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-04-23 17:24:58,098-[YZT] [INFO] main com.yzt.logic.util.redis.MyRedis - redis 初始化完成
+2018-04-23 17:24:58,479-[YZT] [INFO] main com.yzt.logic.util.BackFileUtil - 回放文件清理完成！
+2018-04-23 17:24:59,307-[YZT] [WARN] pool-3-thread-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x2667efca]'
+2018-04-23 17:24:59,315-[YZT] [INFO] pool-3-thread-1 io.netty.channel.ChannelInboundHandlerAdapter - webSocket server startup with port 8228
+2018-04-23 17:27:24,086-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-04-23 17:27:24,131-[YZT] [INFO] main com.yzt.logic.util.redis.MyRedis - redis 初始化完成
+2018-04-23 17:27:24,426-[YZT] [INFO] main com.yzt.logic.util.BackFileUtil - 回放文件清理完成！
+2018-04-23 17:27:25,179-[YZT] [WARN] pool-3-thread-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x40491186]'
+2018-04-23 17:27:25,187-[YZT] [INFO] pool-3-thread-1 io.netty.channel.ChannelInboundHandlerAdapter - webSocket server startup with port 8228
+2018-04-23 17:29:04,750-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 17:29:04,751-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 17:52:43,367-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-04-23 17:52:43,421-[YZT] [INFO] main com.yzt.logic.util.redis.MyRedis - redis 初始化完成
+2018-04-23 17:52:43,705-[YZT] [INFO] main com.yzt.logic.util.BackFileUtil - 回放文件清理完成！
+2018-04-23 17:52:44,461-[YZT] [WARN] pool-3-thread-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x16b23fcc]'
+2018-04-23 17:52:44,468-[YZT] [INFO] pool-3-thread-1 io.netty.channel.ChannelInboundHandlerAdapter - webSocket server startup with port 8231
+2018-04-23 17:54:24,030-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 17:54:24,030-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 18:01:35,950-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.netty.handler.WSHandler - WSHandler.channelReadError：没有具体映射的请求处理器
+java.lang.RuntimeException: 未找到合适的请求处理器wsAdapter: /
+	at com.yzt.netty.handler.WSAdapterMapping.registWSAdapter(WSAdapterMapping.java:86)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:54)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:02:30,345-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为53524d50,当前连接数为：1
+2018-04-23 18:02:30,438-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到90900请求{interfaceId=90900}
+2018-04-23 18:02:30,440-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.function.TCPGameFunctions - {}
+2018-04-23 18:03:15,043-[YZT] [INFO] pool-1-thread-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为53524d50,当前连接数为：0
+2018-04-23 18:05:02,656-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为fd6ace09,当前连接数为：1
+2018-04-23 18:05:02,686-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{userInfo=33, interfaceId=100100, position=wsw-666}
+2018-04-23 18:05:02,693-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.executer.Executer - {userInfo=33, interfaceId=100100, position=wsw-666}
+2018-04-23 18:05:02,702-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {}
+2018-04-23 18:05:02,703-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：10
+2018-04-23 18:05:45,043-[YZT] [INFO] pool-1-thread-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为fd6ace09,当前连接数为：0
+2018-04-23 18:10:38,716-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为73e4a4b0,当前连接数为：1
+2018-04-23 18:10:38,728-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{userInfo=33, interfaceId=100100, position=wsw-666}
+2018-04-23 18:10:38,730-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.executer.Executer - {userInfo=33, interfaceId=100100, position=wsw-666}
+2018-04-23 18:10:38,731-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {}
+2018-04-23 18:10:38,731-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 18:11:25,043-[YZT] [INFO] pool-1-thread-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为73e4a4b0,当前连接数为：0
+2018-04-23 18:11:47,819-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为f78eee85,当前连接数为：1
+2018-04-23 18:11:47,833-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{userInfo=33, interfaceId=100100, position=wsw-666}
+2018-04-23 18:11:47,833-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.executer.Executer - {userInfo=33, interfaceId=100100, position=wsw-666}
+2018-04-23 18:11:47,834-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {}
+2018-04-23 18:11:47,835-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 18:12:35,042-[YZT] [INFO] pool-1-thread-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为f78eee85,当前连接数为：0
+2018-04-23 18:21:53,330-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为c44af1fd,当前连接数为：1
+2018-04-23 18:21:53,365-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:21:53,366-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:21:53,373-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.dao.UserMapper - sql name ==>>com.yzt.logic.mj.dao.UserMapper.getNotice
+2018-04-23 18:21:54,449-[YZT] [ERROR] pool-5-thread-4 com.yzt.logic.mj.dao.UserLogin - ERROR
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://192.168.1.7:8082/userService/returnUser?openId=wsw-666&cId=33
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.yzt.logic.mj.dao.UserLogin.sendGet(UserLogin.java:75)
+	at com.yzt.logic.mj.dao.UserLogin.getUserInfoByOpenId(UserLogin.java:28)
+	at com.yzt.logic.mj.function.HallFunctions.getPlayerInfos(HallFunctions.java:905)
+	at com.yzt.logic.mj.function.MessageFunctions.interface_100100(MessageFunctions.java:43)
+	at com.yzt.logic.mj.executer.Executer.logic(Executer.java:146)
+	at com.yzt.logic.mj.executer.Executer.access$1(Executer.java:101)
+	at com.yzt.logic.mj.executer.Executer$ReceiveTask.run(Executer.java:88)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:21:54,449-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {}
+2018-04-23 18:21:54,450-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：1084
+2018-04-23 18:22:35,042-[YZT] [INFO] pool-1-thread-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为c44af1fd,当前连接数为：0
+2018-04-23 18:22:35,512-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为421c1b1d,当前连接数为：1
+2018-04-23 18:22:35,525-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:22:35,526-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:22:35,825-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:22:35,827-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：301
+2018-04-23 18:25:43,814-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为421c1b1d,当前连接数为：0
+2018-04-23 18:25:44,530-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为82d7c0b8,当前连接数为：1
+2018-04-23 18:25:44,553-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:25:44,553-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:25:44,722-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:25:44,724-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：171
+2018-04-23 18:29:02,815-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为82d7c0b8,当前连接数为：0
+2018-04-23 18:29:03,396-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为26f995a8,当前连接数为：1
+2018-04-23 18:29:03,410-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:29:03,410-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:29:03,477-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:29:03,478-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：68
+2018-04-23 18:29:11,410-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:29:19,409-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:29:27,409-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:29:35,413-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:29:43,416-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:29:51,412-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:29:59,412-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:07,411-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:15,413-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:23,411-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:31,412-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:39,410-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:47,412-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:30:55,411-[YZT] [ERROR] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到无效数据-->"ping"
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:194)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:67)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:31:03,384-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为26f995a8,当前连接数为：0
+2018-04-23 18:31:04,251-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为56a38b65,当前连接数为：1
+2018-04-23 18:31:04,314-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:31:04,318-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:31:04,717-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:31:04,718-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：400
+2018-04-23 18:32:15,545-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为56a38b65,当前连接数为：0
+2018-04-23 18:32:16,187-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为3ad18688,当前连接数为：1
+2018-04-23 18:32:16,200-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:32:16,201-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:32:16,366-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:32:16,367-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：166
+2018-04-23 18:32:18,366-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100002请求{interfaceId=100002, page=1}
+2018-04-23 18:32:18,374-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.executer.Executer - {interfaceId=100002, page=1}
+2018-04-23 18:32:18,378-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 大厅查询战绩,interfaceId -> 100002
+2018-04-23 18:32:18,379-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {"pages":0,"infos":[]}
+2018-04-23 18:32:18,382-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：8
+2018-04-23 18:32:35,110-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:32:35,110-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:32:35,111-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:32:35,112-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:32:35,113-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 18:32:36,084-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:32:36,085-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:32:36,086-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 18:32:36,089-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 18:32:36,090-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：5
+2018-04-23 18:32:39,973-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:32:39,977-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:32:39,979-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 18:32:39,979-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 18:32:39,980-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 18:32:42,559-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为3ad18688,当前连接数为：0
+2018-04-23 18:32:43,122-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为18b02c98,当前连接数为：1
+2018-04-23 18:32:43,134-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:32:43,135-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:32:43,259-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:32:43,260-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：125
+2018-04-23 18:32:59,064-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100002请求{interfaceId=100002, page=1}
+2018-04-23 18:32:59,064-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.executer.Executer - {interfaceId=100002, page=1}
+2018-04-23 18:32:59,064-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 大厅查询战绩,interfaceId -> 100002
+2018-04-23 18:32:59,065-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {"pages":0,"infos":[]}
+2018-04-23 18:32:59,066-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 18:33:10,675-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:33:10,677-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:33:10,679-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:33:10,680-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:33:10,682-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：5
+2018-04-23 18:34:17,727-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为18b02c98,当前连接数为：0
+2018-04-23 18:34:18,434-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为2b862e10,当前连接数为：1
+2018-04-23 18:34:18,501-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:34:18,501-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:34:18,567-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:34:18,568-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：67
+2018-04-23 18:34:21,755-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:34:21,756-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:34:21,756-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:34:21,756-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:34:21,757-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 18:35:16,464-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为2b862e10,当前连接数为：0
+2018-04-23 18:35:17,128-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为2dc3c45b,当前连接数为：1
+2018-04-23 18:35:17,171-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:35:17,171-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:35:17,535-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:35:17,537-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：366
+2018-04-23 18:35:20,151-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:35:20,152-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:35:20,153-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:35:20,154-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:35:20,155-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 18:35:21,421-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:35:21,421-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:35:21,421-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 18:35:21,422-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 18:35:21,423-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 18:39:46,244-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:39:46,244-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:39:46,244-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:39:46,247-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:39:46,248-[YZT] [INFO] pool-5-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：4
+2018-04-23 18:39:49,418-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:39:49,418-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:39:49,418-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 18:39:49,419-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 18:39:49,419-[YZT] [INFO] pool-5-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 18:39:50,741-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:39:50,742-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:39:50,742-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 18:39:50,743-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 18:39:50,743-[YZT] [INFO] pool-5-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 18:42:18,647-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:42:18,647-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:42:18,647-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:42:18,651-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:42:18,654-[YZT] [INFO] pool-5-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：7
+2018-04-23 18:42:20,042-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:42:20,042-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 18:42:20,043-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 18:42:20,043-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 18:42:20,044-[YZT] [INFO] pool-5-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 18:42:26,715-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为2dc3c45b,当前连接数为：0
+2018-04-23 18:42:27,197-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为0259491b,当前连接数为：1
+2018-04-23 18:42:27,210-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:42:27,212-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:42:27,312-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:42:27,315-[YZT] [INFO] pool-5-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：103
+2018-04-23 18:42:45,615-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:42:45,615-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:42:45,616-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:42:45,616-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:42:45,617-[YZT] [INFO] pool-5-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 18:44:13,537-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为0259491b,当前连接数为：0
+2018-04-23 18:44:14,243-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为6458d431,当前连接数为：1
+2018-04-23 18:44:14,285-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:44:14,288-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:44:14,375-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:44:14,375-[YZT] [INFO] pool-5-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：88
+2018-04-23 18:44:19,944-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:44:19,945-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:44:19,945-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:44:19,946-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:44:19,946-[YZT] [INFO] pool-5-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 18:50:05,247-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为6458d431,当前连接数为：0
+2018-04-23 18:50:09,034-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为5344e199,当前连接数为：1
+2018-04-23 18:50:09,045-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:50:09,045-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:50:09,143-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:50:09,144-[YZT] [INFO] pool-5-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：99
+2018-04-23 18:50:24,184-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 18:50:24,185-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 18:50:24,185-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 18:50:24,185-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 18:50:24,186-[YZT] [INFO] pool-5-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 18:51:09,563-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为5344e199,当前连接数为：0
+2018-04-23 18:51:13,244-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为9a444825,当前连接数为：1
+2018-04-23 18:51:13,257-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:51:13,258-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:51:13,357-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:51:13,357-[YZT] [INFO] pool-5-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：100
+2018-04-23 18:51:17,640-[YZT] [ERROR] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - MJLogicAdapter.handlerWebSocketFrameData
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.putVal(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.put(Unknown Source)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:78)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:52:44,684-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为9a444825,当前连接数为：0
+2018-04-23 18:52:46,752-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为4d9aa071,当前连接数为：1
+2018-04-23 18:52:46,765-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:52:46,766-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:52:46,842-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:52:46,844-[YZT] [INFO] pool-5-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：78
+2018-04-23 18:52:51,376-[YZT] [ERROR] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - MJLogicAdapter.handlerWebSocketFrameData
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.putVal(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.put(Unknown Source)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:78)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:53:39,487-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为4d9aa071,当前连接数为：0
+2018-04-23 18:53:40,427-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为88a3d264,当前连接数为：1
+2018-04-23 18:53:40,438-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:53:40,439-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 18:53:40,511-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 18:53:40,512-[YZT] [INFO] pool-5-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：72
+2018-04-23 18:53:44,171-[YZT] [ERROR] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - MJLogicAdapter.handlerWebSocketFrameData
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.putVal(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.put(Unknown Source)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:78)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 18:54:24,032-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 18:54:24,033-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 19:01:45,885-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为88a3d264,当前连接数为：0
+2018-04-23 19:01:48,362-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为7ab76519,当前连接数为：1
+2018-04-23 19:01:48,428-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:01:48,429-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:01:48,630-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:01:48,631-[YZT] [INFO] pool-5-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：202
+2018-04-23 19:01:57,180-[YZT] [ERROR] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - MJLogicAdapter.handlerWebSocketFrameData
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.putVal(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.put(Unknown Source)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:78)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 19:03:08,231-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为7ab76519,当前连接数为：0
+2018-04-23 19:03:08,955-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为9bf94a6b,当前连接数为：1
+2018-04-23 19:03:08,967-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:03:08,967-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:03:09,061-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:03:09,062-[YZT] [INFO] pool-5-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：95
+2018-04-23 19:03:12,750-[YZT] [ERROR] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - MJLogicAdapter.handlerWebSocketFrameData
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.putVal(Unknown Source)
+	at java.util.concurrent.ConcurrentHashMap.put(Unknown Source)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:78)
+	at com.yzt.logic.mj.adapter.MJLogicAdapter.handlerWebSocketFrameData(MJLogicAdapter.java:1)
+	at com.yzt.netty.adapter.AbstractFrameHandlerAdapter.handleRequest(AbstractFrameHandlerAdapter.java:69)
+	at com.yzt.netty.handler.WSHandler.channelRead(WSHandler.java:83)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 19:06:50,914-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-04-23 19:06:50,962-[YZT] [INFO] main com.yzt.logic.util.redis.MyRedis - redis 初始化完成
+2018-04-23 19:06:51,317-[YZT] [INFO] main com.yzt.logic.util.BackFileUtil - 回放文件清理完成！
+2018-04-23 19:06:52,111-[YZT] [WARN] pool-3-thread-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xc5135ee6]'
+2018-04-23 19:06:52,124-[YZT] [INFO] pool-3-thread-1 io.netty.channel.ChannelInboundHandlerAdapter - webSocket server startup with port 8231
+2018-04-23 19:07:38,687-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为5efbe55a,当前连接数为：1
+2018-04-23 19:07:38,767-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:07:38,770-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:07:38,787-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.dao.UserMapper - sql name ==>>com.yzt.logic.mj.dao.UserMapper.getNotice
+2018-04-23 19:07:40,048-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice=文明游戏，禁止赌博}}
+2018-04-23 19:07:40,056-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：1286
+2018-04-23 19:07:45,361-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100007请求{ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, bu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=1}
+2018-04-23 19:07:45,362-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, bu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=1}
+2018-04-23 19:07:45,362-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 创建房间,interfaceId -> 100007
+2018-04-23 19:07:45,392-[YZT] [ERROR] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 服务器异常100007
+java.lang.NullPointerException
+	at com.yzt.logic.mj.function.HallFunctions.interface_100007(HallFunctions.java:171)
+	at com.yzt.logic.mj.executer.Executer.logic(Executer.java:120)
+	at com.yzt.logic.mj.executer.Executer.access$1(Executer.java:101)
+	at com.yzt.logic.mj.executer.Executer$ReceiveTask.run(Executer.java:88)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 19:07:45,393-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：31
+2018-04-23 19:08:15,203-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为5efbe55a,当前连接数为：0
+2018-04-23 19:08:18,084-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为e010157e,当前连接数为：1
+2018-04-23 19:08:18,123-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:08:18,124-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:08:18,333-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:08:18,334-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：210
+2018-04-23 19:08:31,632-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 19:08:31,632-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 19:09:11,751-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100007请求{ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, bu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=1}
+2018-04-23 19:09:11,753-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, bu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=1}
+2018-04-23 19:09:11,753-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 创建房间,interfaceId -> 100007
+2018-04-23 19:09:11,755-[YZT] [ERROR] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 服务器异常100007
+java.lang.NullPointerException
+	at com.yzt.logic.mj.function.HallFunctions.interface_100007(HallFunctions.java:171)
+	at com.yzt.logic.mj.executer.Executer.logic(Executer.java:120)
+	at com.yzt.logic.mj.executer.Executer.access$1(Executer.java:101)
+	at com.yzt.logic.mj.executer.Executer$ReceiveTask.run(Executer.java:88)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 19:09:11,755-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:09:26,880-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100007请求{ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, bu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=1, circleNum=3}
+2018-04-23 19:09:26,883-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, bu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=1, circleNum=3}
+2018-04-23 19:09:26,884-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 创建房间,interfaceId -> 100007
+2018-04-23 19:09:26,885-[YZT] [ERROR] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 服务器异常100007
+java.lang.NullPointerException
+	at com.yzt.logic.mj.function.HallFunctions.interface_100007(HallFunctions.java:171)
+	at com.yzt.logic.mj.executer.Executer.logic(Executer.java:120)
+	at com.yzt.logic.mj.executer.Executer.access$1(Executer.java:101)
+	at com.yzt.logic.mj.executer.Executer$ReceiveTask.run(Executer.java:88)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 19:09:26,886-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:11:12,423-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为e010157e,当前连接数为：0
+2018-04-23 19:11:13,790-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为9b6fbee6,当前连接数为：1
+2018-04-23 19:11:13,804-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:11:13,805-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:11:13,895-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:11:13,896-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：91
+2018-04-23 19:11:20,186-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100007请求{ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=8}
+2018-04-23 19:11:20,187-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=8}
+2018-04-23 19:11:20,187-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 创建房间,interfaceId -> 100007
+2018-04-23 19:11:20,199-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo={playStatus=1, money=1988, playerNum=0}, reqState=10, roomInfo={lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=112694, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, playType=1, ruleChangMao=1, rulePuFen=2, ruleQingYiSe=1, state=1, roomType=2, circleNum=8}}
+2018-04-23 19:11:20,229-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：42
+2018-04-23 19:11:28,141-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:11:28,143-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:11:28,144-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:11:28,154-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@1e3c93b6, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:11:28,158-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：15
+2018-04-23 19:12:43,850-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为9b6fbee6,当前连接数为：0
+2018-04-23 19:12:46,691-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为39872922,当前连接数为：1
+2018-04-23 19:12:46,702-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:12:46,784-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:12:46,979-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:12:46,980-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：196
+2018-04-23 19:12:48,056-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:12:48,056-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:12:48,056-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:12:48,057-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@3bac9232, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:12:48,058-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:14:05,749-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为39872922,当前连接数为：0
+2018-04-23 19:14:08,685-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为0746304b,当前连接数为：1
+2018-04-23 19:14:08,718-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:14:08,719-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:14:08,819-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:14:08,820-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：101
+2018-04-23 19:14:10,685-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:14:10,685-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:14:10,686-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:14:10,687-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@6585d43c, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:14:10,688-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:15:18,314-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为0746304b,当前连接数为：0
+2018-04-23 19:15:20,819-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为e67719c4,当前连接数为：1
+2018-04-23 19:15:20,834-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:15:20,837-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:15:20,936-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:15:20,938-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：101
+2018-04-23 19:15:22,614-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:15:22,614-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:15:22,617-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:15:22,617-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@79cc9464, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:15:22,619-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：5
+2018-04-23 19:16:32,529-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为e67719c4,当前连接数为：0
+2018-04-23 19:16:33,523-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为5c50abb3,当前连接数为：1
+2018-04-23 19:16:33,534-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:16:33,534-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:16:33,649-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:16:33,650-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：116
+2018-04-23 19:16:36,742-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:16:36,743-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:16:36,743-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:16:36,745-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@19ef97a4, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:16:36,746-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:19:20,449-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为5c50abb3,当前连接数为：0
+2018-04-23 19:19:21,682-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为4c4520b1,当前连接数为：1
+2018-04-23 19:19:21,696-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:19:21,697-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:19:21,802-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:19:21,803-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：106
+2018-04-23 19:19:24,818-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:19:24,818-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:19:24,818-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:19:24,819-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@352fc614, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:19:24,820-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:21:04,817-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为4c4520b1,当前连接数为：0
+2018-04-23 19:21:05,745-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为27bfd0f8,当前连接数为：1
+2018-04-23 19:21:05,772-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:21:05,773-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:21:05,903-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:21:05,904-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：131
+2018-04-23 19:21:09,499-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:21:09,501-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:21:09,501-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:21:09,504-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@6089695d, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:21:09,505-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：4
+2018-04-23 19:24:36,857-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为27bfd0f8,当前连接数为：0
+2018-04-23 19:24:52,998-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为9eecf50a,当前连接数为：1
+2018-04-23 19:24:53,012-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:24:53,013-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:24:53,185-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:24:53,188-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：175
+2018-04-23 19:24:55,516-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:24:55,517-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:24:55,517-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:24:55,518-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@14daba7e, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:24:55,519-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:26:09,617-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为9eecf50a,当前连接数为：0
+2018-04-23 19:26:12,589-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为04538d24,当前连接数为：1
+2018-04-23 19:26:12,602-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:26:12,602-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:26:12,707-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:26:12,708-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：106
+2018-04-23 19:26:15,306-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:26:15,306-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:26:15,306-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:26:15,308-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@21775673, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:26:15,309-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:26:26,385-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100013请求{interfaceId=100013}
+2018-04-23 19:26:26,386-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=100013}
+2018-04-23 19:26:26,386-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 代开模式中踢出玩家,interfaceId -> 100013
+2018-04-23 19:26:26,386-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:26:26,387-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 19:32:01,781-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为04538d24,当前连接数为：0
+2018-04-23 19:32:03,348-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为05649bee,当前连接数为：1
+2018-04-23 19:32:03,359-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:32:03,359-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:32:03,446-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:32:03,447-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：88
+2018-04-23 19:32:04,863-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:32:04,864-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:32:04,864-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:32:04,866-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@45055daf, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:32:04,867-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:32:06,204-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100013请求{interfaceId=100013}
+2018-04-23 19:32:06,206-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=100013}
+2018-04-23 19:32:06,207-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 代开模式中踢出玩家,interfaceId -> 100013
+2018-04-23 19:32:06,208-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:32:06,209-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:33:00,527-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为05649bee,当前连接数为：0
+2018-04-23 19:33:02,759-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为ed2a6ca6,当前连接数为：1
+2018-04-23 19:33:02,770-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:33:02,771-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:33:02,858-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1988, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:33:02,860-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：89
+2018-04-23 19:33:05,876-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:33:05,876-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:33:05,877-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:33:05,878-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=8, ruleTuiDaoHu=2, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@1dad1671, roomId=789601, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524481880188, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=8}]
+2018-04-23 19:33:05,883-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：6
+2018-04-23 19:33:06,888-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100013请求{interfaceId=100013, roomSn=789601}
+2018-04-23 19:33:06,888-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {interfaceId=100013, roomSn=789601}
+2018-04-23 19:33:06,888-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 代开模式中踢出玩家,interfaceId -> 100013
+2018-04-23 19:33:06,890-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {money=2000, reqState=1}
+2018-04-23 19:33:06,891-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:34:50,268-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:34:50,268-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:34:50,269-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:34:50,270-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 19:34:50,271-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:34:51,574-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 19:34:51,575-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 19:34:51,575-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 19:34:51,576-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 19:34:51,576-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 19:39:43,333-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为ed2a6ca6,当前连接数为：0
+2018-04-23 19:39:44,175-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为bac1759f,当前连接数为：1
+2018-04-23 19:39:44,188-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:39:44,189-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:39:44,277-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:39:44,278-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：89
+2018-04-23 19:39:49,010-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100007请求{ruleTuiDaoHu=1, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=2}
+2018-04-23 19:39:49,011-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {ruleTuiDaoHu=1, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=112694, ruleDaiHun=2, ruleQiongHu=1, playType=1, ruleChangMao=1, rulePuFen=2, interfaceId=100007, ruleQingYiSe=1, roomType=2, circleNum=2}
+2018-04-23 19:39:49,011-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 创建房间,interfaceId -> 100007
+2018-04-23 19:39:49,013-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - {userInfo={playStatus=1, money=1996, playerNum=0}, reqState=10, roomInfo={lastNum=2, ruleTuiDaoHu=1, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=112694, roomId=314046, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, playType=1, ruleChangMao=1, rulePuFen=2, ruleQingYiSe=1, state=1, roomType=2, circleNum=2}}
+2018-04-23 19:39:49,017-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：6
+2018-04-23 19:40:06,370-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId={"A":"376051","k":112694}}
+2018-04-23 19:40:06,371-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId={"A":"376051","k":112694}}
+2018-04-23 19:40:06,371-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 19:40:06,372-[YZT] [ERROR] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 服务器异常100008
+java.lang.NumberFormatException: For input string: "{"A":"376051","k":112694}"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Long.parseLong(Unknown Source)
+	at java.lang.Long.valueOf(Unknown Source)
+	at com.yzt.logic.util.GameUtil.StringUtils.parseLong(StringUtils.java:280)
+	at com.yzt.logic.mj.function.HallFunctions.interface_100008(HallFunctions.java:317)
+	at com.yzt.logic.mj.executer.Executer.logic(Executer.java:123)
+	at com.yzt.logic.mj.executer.Executer.access$1(Executer.java:101)
+	at com.yzt.logic.mj.executer.Executer$ReceiveTask.run(Executer.java:88)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 19:40:06,462-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：91
+2018-04-23 19:43:30,712-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为bac1759f,当前连接数为：0
+2018-04-23 19:43:33,935-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为46523c14,当前连接数为：1
+2018-04-23 19:43:33,945-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:43:33,946-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 19:43:34,041-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1996, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:43:34,042-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：96
+2018-04-23 19:43:40,765-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=112694, roomId=376215}
+2018-04-23 19:43:40,766-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=112694, roomId=376215}
+2018-04-23 19:43:40,767-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 19:43:40,768-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:43:40,769-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 19:45:09,789-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 19:45:09,790-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 19:45:09,790-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:45:09,794-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=2, ruleTuiDaoHu=1, ruleQiDui=2, playerInfo=[], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@21fc1bf1, roomId=314046, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524483589012, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=2}]
+2018-04-23 19:45:09,795-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：5
+2018-04-23 19:45:24,009-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为9d222443,当前连接数为：2
+2018-04-23 19:45:24,059-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 19:45:24,060-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 19:45:25,158-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/905860.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-667, version=2.0.0, userId=905860, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:45:25,159-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：1099
+2018-04-23 19:45:37,901-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 19:45:37,902-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 19:45:37,902-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 19:45:37,904-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:45:37,904-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:56:14,375-[YZT] [INFO] nioEventLoopGroup-3-8 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为9d222443,当前连接数为：1
+2018-04-23 19:56:17,609-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为e5662090,当前连接数为：2
+2018-04-23 19:56:17,620-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 19:56:17,620-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 19:56:17,718-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/905860.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-667, version=2.0.0, userId=905860, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:56:17,719-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：99
+2018-04-23 19:56:19,155-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=905860}
+2018-04-23 19:56:19,155-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=905860}
+2018-04-23 19:56:19,156-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 19:56:19,156-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - []
+2018-04-23 19:56:19,156-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 19:56:24,674-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=905860, roomId=376215}
+2018-04-23 19:56:24,674-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=905860, roomId=376215}
+2018-04-23 19:56:24,674-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 19:56:24,675-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:56:24,676-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:57:18,611-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 19:57:18,611-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 19:57:18,612-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 19:57:18,613-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:57:18,613-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 19:59:45,674-[YZT] [INFO] nioEventLoopGroup-3-1 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为e5662090,当前连接数为：1
+2018-04-23 19:59:49,898-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为543446fd,当前连接数为：2
+2018-04-23 19:59:49,909-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 19:59:49,910-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 19:59:50,006-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/905860.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-667, version=2.0.0, userId=905860, notice="文明游戏，禁止赌博"}}
+2018-04-23 19:59:50,007-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：97
+2018-04-23 19:59:54,911-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 19:59:54,912-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 19:59:54,912-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 19:59:54,913-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 19:59:54,914-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 20:01:18,641-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 20:01:18,642-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=905860, roomId=314046}
+2018-04-23 20:01:18,642-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 20:01:28,007-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 20:01:28,007-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：9365
+2018-04-23 20:02:29,985-[YZT] [INFO] nioEventLoopGroup-3-2 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为543446fd,当前连接数为：1
+2018-04-23 20:02:33,337-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为0b9e8e52,当前连接数为：2
+2018-04-23 20:02:33,349-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 20:02:33,349-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {openId=wsw-667, interfaceId=100100, cId=33}
+2018-04-23 20:02:33,428-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/905860.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-667, version=2.0.0, userId=905860, notice="文明游戏，禁止赌博"}}
+2018-04-23 20:02:33,432-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：83
+2018-04-23 20:02:43,108-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=905860, roomSn=314046}
+2018-04-23 20:02:43,108-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=905860, roomSn=314046}
+2018-04-23 20:02:43,108-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 20:02:43,109-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {lastNum=2, userInfo=[{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/905860.jpg","money":2000,"gender":"1","ip":"192.168.1.111","position":3,"userName":"wsw-667","userId":905860}], ruleTuiDaoHu=1, reqState=1, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=null, roomSn=314046, playerNum=1, roomInfo={lastNum=2, createTime=1524483589012, totalNum=2, scoreType=1, state=1, xjst=null, userName=wsw-666, userId=112694, roomId=314046, roomType=2, dissolveRoom=null}, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, totalNum=2, ruleChangMao=1, rulePuFen=2, playType=1, ruleQingYiSe=1, roomType=2}
+2018-04-23 20:02:43,113-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.function.TCPGameFunctions - {userImg=http://192.168.1.123/headimg/905860.jpg, position=3, userName=wsw-667, userId=905860, extraType=1, roomSn=314046}
+2018-04-23 20:02:43,114-[YZT] [INFO] pool-4-thread-2 com.yzt.logic.mj.executer.Executer - 请求处理时间：6
+2018-04-23 20:05:01,025-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 20:05:01,027-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 20:05:01,027-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 20:05:01,033-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=2, ruleTuiDaoHu=1, ruleQiDui=2, playerInfo=[{userImg=http://192.168.1.123/headimg/905860.jpg, position=3, state=1, userName=wsw-667, userId=905860}], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@57ffae91, roomId=314046, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524483589012, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=2}]
+2018-04-23 20:05:01,034-[YZT] [INFO] pool-4-thread-3 com.yzt.logic.mj.executer.Executer - 请求处理时间：7
+2018-04-23 20:05:11,009-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100012请求{interfaceId=100012, userId=905860}
+2018-04-23 20:05:11,010-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - {interfaceId=100012, userId=905860}
+2018-04-23 20:05:11,010-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100012
+2018-04-23 20:05:11,011-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 20:05:11,012-[YZT] [INFO] pool-4-thread-4 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 20:08:03,202-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100012请求{interfaceId=100012, userId=905860}
+2018-04-23 20:08:03,203-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - {interfaceId=100012, userId=905860}
+2018-04-23 20:08:03,203-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100012
+2018-04-23 20:08:11,566-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 20:08:11,567-[YZT] [INFO] pool-4-thread-5 com.yzt.logic.mj.executer.Executer - 请求处理时间：8364
+2018-04-23 20:08:31,634-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 20:08:31,635-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 20:09:26,746-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为46523c14,当前连接数为：1
+2018-04-23 20:09:28,122-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为0b9e8e52,当前连接数为：0
+2018-04-23 20:09:28,124-[YZT] [INFO] nioEventLoopGroup-3-3 com.yzt.logic.mj.function.TCPGameFunctions - {state=2, userId=905860}
+2018-04-23 20:09:39,217-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为498a187b,当前连接数为：1
+2018-04-23 20:09:39,228-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 20:09:39,228-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 20:09:39,325-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1996, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 20:09:39,327-[YZT] [INFO] pool-4-thread-6 com.yzt.logic.mj.executer.Executer - 请求处理时间：99
+2018-04-23 20:09:43,799-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 20:09:43,800-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 20:09:43,800-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 20:09:43,801-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=2, ruleTuiDaoHu=1, ruleQiDui=2, playerInfo=[{userImg=http://192.168.1.123/headimg/905860.jpg, position=3, state=1, userName=wsw-667, userId=905860}], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@59d718b, roomId=314046, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524483589012, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=2}]
+2018-04-23 20:09:43,803-[YZT] [INFO] pool-4-thread-7 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 20:10:49,675-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100012请求{interfaceId=100012, userId=905860}
+2018-04-23 20:10:49,675-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - {interfaceId=100012, userId=905860}
+2018-04-23 20:10:49,676-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100012
+2018-04-23 20:10:49,676-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=4}
+2018-04-23 20:10:49,676-[YZT] [INFO] pool-4-thread-8 com.yzt.logic.mj.executer.Executer - 请求处理时间：1
+2018-04-23 20:10:51,006-[YZT] [INFO] nioEventLoopGroup-3-4 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为498a187b,当前连接数为：0
+2018-04-23 20:10:53,787-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为f27aeca3,当前连接数为：1
+2018-04-23 20:10:53,797-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 20:10:53,797-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 20:10:53,894-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1996, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 20:10:53,895-[YZT] [INFO] pool-4-thread-9 com.yzt.logic.mj.executer.Executer - 请求处理时间：98
+2018-04-23 20:10:55,616-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 20:10:55,618-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 20:10:55,618-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 20:10:55,622-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=2, ruleTuiDaoHu=1, ruleQiDui=2, playerInfo=[{userImg=http://192.168.1.123/headimg/905860.jpg, position=3, state=1, userName=wsw-667, userId=905860}], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@46cbb359, roomId=314046, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524483589012, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=2}]
+2018-04-23 20:10:55,624-[YZT] [INFO] pool-4-thread-10 com.yzt.logic.mj.executer.Executer - 请求处理时间：5
+2018-04-23 20:10:58,158-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100012请求{interfaceId=100012, userId=905860, roomSn=314046}
+2018-04-23 20:10:58,159-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - {interfaceId=100012, userId=905860, roomSn=314046}
+2018-04-23 20:10:58,159-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100012
+2018-04-23 20:10:58,161-[YZT] [ERROR] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 服务器异常100012
+java.lang.NullPointerException
+	at com.yzt.logic.mj.function.MessageFunctions.interface_100107(MessageFunctions.java:547)
+	at com.yzt.logic.mj.function.HallFunctions.interface_100012(HallFunctions.java:625)
+	at com.yzt.logic.mj.executer.Executer.logic(Executer.java:135)
+	at com.yzt.logic.mj.executer.Executer.access$1(Executer.java:101)
+	at com.yzt.logic.mj.executer.Executer$ReceiveTask.run(Executer.java:88)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-04-23 20:10:58,161-[YZT] [INFO] pool-4-thread-11 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 20:12:26,665-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为4bba9c31,当前连接数为：2
+2018-04-23 20:12:26,677-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-668, interfaceId=100100, cId=33}
+2018-04-23 20:12:26,678-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - {openId=wsw-668, interfaceId=100100, cId=33}
+2018-04-23 20:12:26,977-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/894935.jpg, gender=1, money=2000, ip=192.168.1.111, position=null, userName=wsw-668, version=2.0.0, userId=894935, notice="文明游戏，禁止赌博"}}
+2018-04-23 20:12:26,979-[YZT] [INFO] pool-4-thread-12 com.yzt.logic.mj.executer.Executer - 请求处理时间：301
+2018-04-23 20:12:41,072-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100008请求{interfaceId=100008, userId=894935, roomSn=314046}
+2018-04-23 20:12:41,073-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - {interfaceId=100008, userId=894935, roomSn=314046}
+2018-04-23 20:12:41,074-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - 加入房间,interfaceId -> 100008
+2018-04-23 20:12:41,076-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {lastNum=2, userInfo=[{"score":0,"playStatus":2,"userImg":"http://192.168.1.123/headimg/894935.jpg","money":2000,"gender":"1","ip":"192.168.1.111","position":4,"userName":"wsw-668","userId":894935}], ruleTuiDaoHu=1, reqState=1, ruleQiDui=2, scoreType=1, ruleXuanFeng=1, userId=null, roomSn=314046, playerNum=1, roomInfo={lastNum=2, createTime=1524483589012, totalNum=2, scoreType=1, state=1, xjst=null, userName=wsw-666, userId=112694, roomId=314046, roomType=2, dissolveRoom=null}, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, totalNum=2, ruleChangMao=1, rulePuFen=2, playType=1, ruleQingYiSe=1, roomType=2}
+2018-04-23 20:12:41,078-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.function.TCPGameFunctions - {userImg=http://192.168.1.123/headimg/894935.jpg, position=4, userName=wsw-668, userId=894935, extraType=1, roomSn=314046}
+2018-04-23 20:12:41,079-[YZT] [INFO] pool-4-thread-13 com.yzt.logic.mj.executer.Executer - 请求处理时间：6
+2018-04-23 20:13:00,356-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100011请求{interfaceId=100011, page=1, userId=112694}
+2018-04-23 20:13:00,356-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - {interfaceId=100011, page=1, userId=112694}
+2018-04-23 20:13:00,357-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - 查看历史代开房间列表,interfaceId -> 100011
+2018-04-23 20:13:00,357-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.function.TCPGameFunctions - {pages=0, roomInfo=[]}
+2018-04-23 20:13:00,358-[YZT] [INFO] pool-4-thread-14 com.yzt.logic.mj.executer.Executer - 请求处理时间：2
+2018-04-23 20:13:19,583-[YZT] [INFO] nioEventLoopGroup-3-5 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为f27aeca3,当前连接数为：1
+2018-04-23 20:13:21,667-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 新客户端接入，id为83056e06,当前连接数为：2
+2018-04-23 20:13:21,680-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100100请求{openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 20:13:21,681-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - {openId=wsw-666, interfaceId=100100, cId=33}
+2018-04-23 20:13:21,787-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.function.TCPGameFunctions - {currentUser={playStatus=1, userAgree=0, score=null, userImg=http://192.168.1.123/headimg/112694.jpg, gender=1, money=1996, ip=192.168.1.111, position=null, userName=wsw-666, version=2.0.0, userId=112694, notice="文明游戏，禁止赌博"}}
+2018-04-23 20:13:21,789-[YZT] [INFO] pool-4-thread-15 com.yzt.logic.mj.executer.Executer - 请求处理时间：108
+2018-04-23 20:13:25,070-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100010请求{interfaceId=100010, userId=112694}
+2018-04-23 20:13:25,071-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - {interfaceId=100010, userId=112694}
+2018-04-23 20:13:25,071-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - 查看代开房间列表,interfaceId -> 100010
+2018-04-23 20:13:25,072-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.function.TCPGameFunctions - [{lastNum=2, ruleTuiDaoHu=1, ruleQiDui=2, playerInfo=[{userImg=http://192.168.1.123/headimg/894935.jpg, position=4, state=1, userName=wsw-668, userId=894935}], scoreType=1, ruleXuanFeng=1, userId=[Ljava.lang.Long;@59afa678, roomId=314046, ruleDaiHun=2, ruleQiongHu=1, ruleJueGang=0, createTime=1524483589012, ruleChangMao=1, rulePuFen=2, playType=1, state=1, ruleQingYiSe=1, circleNum=2}]
+2018-04-23 20:13:25,074-[YZT] [INFO] pool-4-thread-16 com.yzt.logic.mj.executer.Executer - 请求处理时间：3
+2018-04-23 20:13:33,334-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 收到100012请求{interfaceId=100012, userId=894935, roomSn=314046}
+2018-04-23 20:13:33,335-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - {interfaceId=100012, userId=894935, roomSn=314046}
+2018-04-23 20:13:33,335-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - 准备,interfaceId -> 100012
+2018-04-23 20:13:44,861-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {type=1, userId=894935}
+2018-04-23 20:13:47,461-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=1}
+2018-04-23 20:13:48,412-[YZT] [INFO] pool-4-thread-1 com.yzt.logic.mj.executer.Executer - 请求处理时间：15077
+2018-04-23 20:17:43,342-[YZT] [INFO] nioEventLoopGroup-3-7 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为83056e06,当前连接数为：1
+2018-04-23 20:17:43,343-[YZT] [INFO] nioEventLoopGroup-3-6 com.yzt.logic.mj.adapter.MJLogicAdapter - 客户端断开，id为4bba9c31,当前连接数为：0
+2018-04-23 20:19:52,232-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.mj.function.TCPGameFunctions - {reqState=13}
+2018-04-23 21:08:31,637-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 21:08:31,637-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 22:08:31,639-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 22:08:31,640-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-23 23:08:31,641-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-04-23 23:08:31,642-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
